@@ -1,11 +1,11 @@
-animal = 'dog';
+var animal = 'dog';
 // youranimal = 'cat';
 
-function myAnimal(animal) {
-  return `${animal}`
+function myAnimal() {
+  return animal
 }
 
-function yourAnimal(youranimal) {
+function yourAnimal() {
   
   // How can we make sure that this function
   // and the above function both pass?
