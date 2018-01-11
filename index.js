@@ -1,5 +1,5 @@
 animal = 'dog';
-youranimal = 'cat';
+// youranimal = 'cat';
 
 function myAnimal(animal) {
   return `${animal}`
