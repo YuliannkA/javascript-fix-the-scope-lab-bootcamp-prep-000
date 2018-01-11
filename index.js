@@ -2,7 +2,7 @@ animal = 'dog';
 youranimal = 'cat';
 
 function myAnimal(animal) {
-  return animal;
+  return `${animal}`
 }
 
 function yourAnimal(youranimal) {
@@ -10,7 +10,7 @@ function yourAnimal(youranimal) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  return youranimal;
+  return `${youranimal}`
 }
 
 function add2(n) {
